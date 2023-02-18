@@ -2,17 +2,17 @@
     "intents": {
         "greeting": {
             "examples": ["привет", "здравствуй"],
-            "responses": play_greetings
+            "responses": "play_greetings"
         },
 
         "farewell": {
             "examples": ["до свидания", "до встречи"],
-            "responses": play_farewell_and_quit
+            "responses": "play_farewell_and_quit"
         },
 
         "registration": {
             "examples": ["Чтобы зарегистрироваться на портале, нужно нажать кнопку регистрация",],
-            "responses": play_instructions
+            "responses": "play_instructions"
         }
     }
 
